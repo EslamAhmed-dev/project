@@ -1,0 +1,9 @@
+body{
+    background-color: #3e0f69;
+}
+.title{
+     display: flex;
+justify-content: space-between;
+list-style: none;
+color: white;
+}
