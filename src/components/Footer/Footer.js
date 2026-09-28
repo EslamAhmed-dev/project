@@ -16,9 +16,8 @@ function Footer() {
     <div>
       <Container>
         <Text>eslam</Text>
-        <Text>aml</Text>
-        <Text>basem</Text>
-        <Text>sabry</Text>
+        <Text>ahmed</Text>
+        <Text>tolba</Text>
       </Container>
     </div>
   );
