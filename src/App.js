@@ -1,20 +1,22 @@
-import { Footer, Header, Home, Post , PostList} from "./components";
+import { Footer, Header, Home, Post,Event,State,Array,DoTo, Contacts } from "./components";
 import { Num } from "./components/Data/Data";
+import "./index.css";
 function App() {
   return (
     <>
-  
+    <Contacts/>
+    <Array/>
+    <DoTo/>
+      <State />
       <Header />
       <Home />
       <Footer />
-      <Footer />
-      <Footer />
-      <Footer />
-      <Footer />
       <Num />
-      <Post />
-      <PostList />
-     
+      <Post title="post one evry thing" like="0" views="0"/>
+      <Post  like="100000" views="100000"/>
+      <Post title="post one evry thing" />
+      <Event/>
+      
     </>
   );
 }
