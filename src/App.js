@@ -1,9 +1,26 @@
-import { Footer, Header, Home, Post,Event,State,Array,DoTo, Contacts } from "./components";
+import { Footer, Header, Home, Post,Event,State,Array,DoTo, Contacts, UserCard, Axios, UseRef,Reducer } from "./components";
 import { Num } from "./components/Data/Data";
 import "./index.css";
 function App() {
   return (
     <>
+    <Reducer/>
+    <UseRef/>
+    <Axios/>
+    <UserCard
+    name="eslam"
+    isonline={true}
+    age={20}
+    role="admin"
+    unread={5}
+    />
+    <UserCard
+    name="ahmed"
+    isonline={false}
+    age={25}
+    role="user"
+    unread={0}
+    />
     <Contacts/>
     <Array/>
     <DoTo/>
